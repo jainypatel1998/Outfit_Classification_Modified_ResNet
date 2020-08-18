@@ -75,7 +75,7 @@ To test and train the model, run the ipynb model file on google colab. Use a GPU
 
 As can be seen with figure 4 and 5, training stagnates after a certain point, exposing the diminishing returns we referenced earlier. After epoch 100, it’s nearly impossible to see any difference in testing accuracy improving, however, time to train and test still grows at a linear rate. The small improvements (less than 1 thousandth) are not worth the linear time and resource toll, showing that epoch training is no longer bottlenecked by the number of epochs being trained over, but rather the model itself or the loss being applied.
 
- First Header | Second Header | Test Accuracy | Time
+ Batch Size | Train Accuracy | Test Accuracy | Time
 ------------- | ------------- | ------------- | ----
 10|0.87858|0.87318|15.98
 20|0.90346|0.88866|33.47
